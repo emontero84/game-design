@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"393cf459672b03cf","type":"link","url":"https://new-blood.itch.io/faith-the-unholy-trinity","x":1200,"y":-200,"width":725,"height":1400},
+		{"id":"df3caf054fff2ab6","type":"file","file":"Assets/Pasted image 20241027125656.png","x":680,"y":-200,"width":400,"height":300},
+		{"id":"350b366edcac7285","type":"file","file":"Assets/Pasted image 20241027125154.png","x":-1400,"y":-181,"width":400,"height":187},
+		{"id":"b3dae289cda0746a","type":"file","file":"Assets/Pasted image 20241027125225.png","x":-920,"y":-181,"width":400,"height":225},
+		{"id":"7d8a67cdeb508836","type":"file","file":"Assets/Pasted image 20241027125245.png","x":-920,"y":99,"width":400,"height":225},
+		{"id":"2fb23675eb030fcc","type":"file","file":"Assets/Pasted image 20241027125253.png","x":-920,"y":379,"width":400,"height":225},
+		{"id":"a79ab8c890e623ab","type":"file","file":"Assets/Pasted image 20241027125311.png","x":-920,"y":659,"width":400,"height":225},
+		{"id":"474ef08dedd5f525","type":"file","file":"Assets/Pasted image 20241027125321.png","x":-920,"y":939,"width":400,"height":225},
+		{"id":"39981abc1608c072","type":"file","file":"Assets/Pasted image 20241027125915.png","x":200,"y":-200,"width":400,"height":300},
+		{"id":"46cd7fef1fd74ec2","type":"file","file":"Assets/Pasted image 20241027125924.png","x":200,"y":174,"width":400,"height":300},
+		{"id":"a6d1d3ea6c8e1edf","type":"file","file":"Assets/Pasted image 20241027125955.png","x":-400,"y":-200,"width":400,"height":225}
+	],
+	"edges":[]
+}

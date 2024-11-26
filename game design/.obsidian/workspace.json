@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "5fab6657eb23d552",
+    "type": "split",
+    "children": [
+      {
+        "id": "f93241496fcaa4b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9479befe26d6665",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Bloodlust Santa Monica/Devlog.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Devlog"
+            }
+          },
+          {
+            "id": "27842cd2d17d2793",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Projects/Bloodlust Santa Monica/GDD Bloodlust.canvas",
+                "viewState": {
+                  "x": 1235.0943601233278,
+                  "y": 1979.5405446875332,
+                  "zoom": -1.3333333333333333
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "GDD Bloodlust"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "069b964231b696b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "326dd69b599b3c81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8fe2963c1e2aa6d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6ee4f14301a6654e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c9ce24e786955173",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c2cea946cefdd3cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9f038ecd911ef9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cd54d2142dcebdc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Projects/Bloodlust Santa Monica/Devlog.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Devlog"
+            }
+          },
+          {
+            "id": "daba6cd41990a56e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "📝Diario de Game Design.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 📝Diario de Game Design"
+            }
+          },
+          {
+            "id": "9acf83d2813df716",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bca47416ab40e992",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "📝Diario de Game Design.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 📝Diario de Game Design"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "c9479befe26d6665",
+  "lastOpenFiles": [
+    "Projects/Bloodlust Santa Monica/GDD Bloodlust.canvas",
+    "Projects/Bloodlust Santa Monica/Devlog.md",
+    "Assets/Talk_0 37.png",
+    "Assets/Talk_0 36.png",
+    "Assets/Talk_0 35.png",
+    "Assets/Talk_0 34.png",
+    "Assets/Talk_0 33.png",
+    "Assets/Talk_0 32.png",
+    "Assets/Talk_0 31.png",
+    "Assets/Talk_0 30.png",
+    "Assets/Talk_0 29.png",
+    "Assets/Talk_0 28.png",
+    "📝Diario de Game Design.md",
+    "Projects/Adventure RPG/1. Notas de Diseño.md",
+    "Projects/Bloodlust Santa Monica",
+    "Projects/Exorcist Simulator/1. Notas de Diseño.md",
+    "Projects/Nights of Blood/1. Notas de Diseño.md",
+    "References/Faith/Faith.canvas",
+    "Projects/Exorcist Simulator/3. Fases de la Posesión Demoníaca.md",
+    "Projects/Exorcist Simulator/2. Lista de Demonios.md",
+    "Projects/Adventure RPG",
+    "Projects",
+    "References/Faith",
+    "References",
+    "Projects/Nights of Blood",
+    "Projects/Exorcist Simulator",
+    "Assets",
+    "Nueva carpeta"
+  ]
+}
