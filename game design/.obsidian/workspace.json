@@ -10,6 +10,7 @@
           {
             "id": "c9479befe26d6665",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,6 +18,7 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Devlog"
             }
@@ -24,16 +26,18 @@
           {
             "id": "27842cd2d17d2793",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Projects/Bloodlust Santa Monica/GDD Bloodlust.canvas",
                 "viewState": {
-                  "x": 1235.0943601233278,
-                  "y": 1979.5405446875332,
+                  "x": 827.6052776810419,
+                  "y": 2270.101076282325,
                   "zoom": -1.3333333333333333
                 }
               },
+              "pinned": true,
               "icon": "lucide-layout-dashboard",
               "title": "GDD Bloodlust"
             }
@@ -184,6 +188,8 @@
   "lastOpenFiles": [
     "Projects/Bloodlust Santa Monica/GDD Bloodlust.canvas",
     "Projects/Bloodlust Santa Monica/Devlog.md",
+    "Projects/Adventure RPG/1. Notas de Diseño.md",
+    "📝Diario de Game Design.md",
     "Assets/Talk_0 37.png",
     "Assets/Talk_0 36.png",
     "Assets/Talk_0 35.png",
@@ -194,8 +200,6 @@
     "Assets/Talk_0 30.png",
     "Assets/Talk_0 29.png",
     "Assets/Talk_0 28.png",
-    "📝Diario de Game Design.md",
-    "Projects/Adventure RPG/1. Notas de Diseño.md",
     "Projects/Bloodlust Santa Monica",
     "Projects/Exorcist Simulator/1. Notas de Diseño.md",
     "Projects/Nights of Blood/1. Notas de Diseño.md",
