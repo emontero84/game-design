@@ -32,8 +32,8 @@
               "state": {
                 "file": "Projects/Bloodlust Santa Monica/GDD Bloodlust.canvas",
                 "viewState": {
-                  "x": 827.6052776810419,
-                  "y": 2270.101076282325,
+                  "x": 968.273955782451,
+                  "y": 2331.4582348661597,
                   "zoom": -1.3333333333333333
                 }
               },
@@ -42,7 +42,8 @@
               "title": "GDD Bloodlust"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,10 +185,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "c9479befe26d6665",
+  "active": "27842cd2d17d2793",
   "lastOpenFiles": [
-    "Projects/Bloodlust Santa Monica/GDD Bloodlust.canvas",
     "Projects/Bloodlust Santa Monica/Devlog.md",
+    "Projects/Bloodlust Santa Monica/GDD Bloodlust.canvas",
+    "Assets/Talk_0 38.png",
     "Projects/Adventure RPG/1. Notas de Diseño.md",
     "📝Diario de Game Design.md",
     "Assets/Talk_0 37.png",
@@ -199,7 +201,6 @@
     "Assets/Talk_0 31.png",
     "Assets/Talk_0 30.png",
     "Assets/Talk_0 29.png",
-    "Assets/Talk_0 28.png",
     "Projects/Bloodlust Santa Monica",
     "Projects/Exorcist Simulator/1. Notas de Diseño.md",
     "Projects/Nights of Blood/1. Notas de Diseño.md",
