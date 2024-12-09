@@ -22,7 +22,13 @@
               "icon": "lucide-file",
               "title": "Devlog"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "c91fb86367bd936a",
+        "type": "tabs",
+        "children": [
           {
             "id": "27842cd2d17d2793",
             "type": "leaf",
@@ -32,9 +38,9 @@
               "state": {
                 "file": "Projects/Bloodlust Santa Monica/GDD Bloodlust.canvas",
                 "viewState": {
-                  "x": 968.273955782451,
-                  "y": 2331.4582348661597,
-                  "zoom": -1.3333333333333333
+                  "x": 1753.7676283056317,
+                  "y": 6204.390877495256,
+                  "zoom": -3.6666666666666674
                 }
               },
               "pinned": true,
@@ -42,8 +48,7 @@
               "title": "GDD Bloodlust"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c2cea946cefdd3cd",
@@ -185,22 +191,22 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "27842cd2d17d2793",
+  "active": "c9479befe26d6665",
   "lastOpenFiles": [
-    "Projects/Bloodlust Santa Monica/Devlog.md",
     "Projects/Bloodlust Santa Monica/GDD Bloodlust.canvas",
+    "Projects/Bloodlust Santa Monica/Devlog.md",
     "Assets/Talk_0 38.png",
+    "Assets/Pasted image 20241201094212.png",
+    "Assets/Pasted image 20241201094156.png",
+    "Assets/Pasted image 20241201094133.png",
+    "Assets/Pasted image 20241201094119.png",
+    "Assets/Pasted image 20241201094101.png",
+    "Assets/Pasted image 20241201094048.png",
+    "Assets/Pasted image 20241201094035.png",
+    "Assets/Pasted image 20241201094024.png",
+    "Assets/Pasted image 20241201094010.png",
     "Projects/Adventure RPG/1. Notas de Diseño.md",
     "📝Diario de Game Design.md",
-    "Assets/Talk_0 37.png",
-    "Assets/Talk_0 36.png",
-    "Assets/Talk_0 35.png",
-    "Assets/Talk_0 34.png",
-    "Assets/Talk_0 33.png",
-    "Assets/Talk_0 32.png",
-    "Assets/Talk_0 31.png",
-    "Assets/Talk_0 30.png",
-    "Assets/Talk_0 29.png",
     "Projects/Bloodlust Santa Monica",
     "Projects/Exorcist Simulator/1. Notas de Diseño.md",
     "Projects/Nights of Blood/1. Notas de Diseño.md",

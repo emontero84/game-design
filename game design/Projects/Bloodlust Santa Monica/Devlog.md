@@ -152,3 +152,190 @@ Voy a enfocar cada playthrough como si fuera un juego distinto. Empecemos por Ch
 He implementado el puzzle Toreador con frases cortas y sin repetición infinita para que solo tengas que solventarlo una vez al entrar a cada una de las 4 habitaciones con cuadros. Cada éxito te aleja del cuadro, cada fallo te acerca al cuadro. Cuando fallas 3 veces se oscurece y apareces en una localización cercana. En la calle principal o en la calle secundaria. Así no hay que hacer demasiado back-tracking para volver a donde estabas. 
 Creo que ha quedado bastante bien. Todavía puedo mejorar el random de las frases Toreador y Nosferatu para que no aparezca la misma frase en un mismo diálogo. Creo que con los Brujah y Malkavian puedo hacer exactamente lo mismo. Ash podría enfurecerse si eliges frases agresivas y tienes que elegir la frase más calmada para evitar abandonar la sala. Matt podría tener que dialogar con su amigo imaginario o personalidad múltiple para continuar con los diálogos normales. Si ignoras el diálogo lunático puedes continuar jugando, si entras en el rabbit-hole lunático podrías acabar en cualquier localización.
 
+1-12-2024
+
+He metido los retratos y el número de página en el quest journal. Han quedado genial, aportan diversidad entre las misiones y hacen que sea fácil navegar entre las misiones y saber quién quiere qué. Creo que voy a descartar todo el rollo de las misiones dobles porque no me cabe un segundo retrato. De hecho, estoy reduciendo textos para que no choque el texto con el retrato. Voy a meter misiones separadas para los polis, el perro y los PNJs que no tienen misión. 
+
+3-12-2024
+
+He estado analizando un poco las métricas de GameAnalytics. El frontpage de Newgrounds ha supuesto el mayor pico de nuevos usuarios, en torno 200 diarios cuando en itchio estaba en 1-5 diarios. El tráfico del vídeo de Mirta apenas se ha notado ya que se ha juntado con la cola del frontpage de Newgrounds. Por lo que en cuanto a UA se refiere, buscar youtubers no es una solución estable, aunque desde luego ayuda y tengo que seguir buscando más youtubers. Intentaré meter los logros de Newgrounds y pasar el foco de itch a Newgrounds para conseguir otro destacado ahora que el juego ya no tiene tanto bugs. No esperaba que Newgrounds fuera mejor plataforma que itch pero los datos dicen que ha sido así.
+Por fin hay jugadores que se han pasado el juego y todos con un % bastante alto: de 90% hacia arriba. Esto y las encuestas me hacen pensar que el juego está demasiado fácil con los skill books y las múltiples soluciones a los puzles así que tiene sentido hacer más lineales los puzles y meter como recompensa de cada quest una objeto, así no arramblas con tantos objetos simplemente explorando y te toca currarte más cada objeto.
+No es una mejora 100% necesaria pero para hacer más cómoda la navegación en el quest journal me gustaría meter una pestaña para las misiones completadas, así solo navegas entre las misiones que no has completado. En vez de una pestaña (ya que no hay sitio) podría ser un botón del checkbox marcado que muestre/oculte las misiones completadas.
+
+4-12-2024
+
+Ha habido un montón de tráfico inesperado de reddit. Alguien posteó sobre el juego en el subreddit de bloodlines y como en breve sale el bloodlines 2 supongo que la gente tiene ganas. Debería promocionar más en reddit ya que el subidón es similar al frontpaged de Newgrounds pero en itch. De hecho, han pagado $10 por el juego. 
+
+He intentado meter el toggle de las quests completadas en el quest journal y no es tan fácil. Prefiero dejarlo para el futuro ya que no es crítico. Quizá tiene sentido montar un discord para mantener a la pequeña comunidad de jugadores al día. Puedo meter un botón en el title screen, pero tendré que informarme de cómo configurar un discord. Y lo que es más importante, qué canales y contenido se espera del discord. Por ejemplo, quiero meter los siguientes canales:
+	- announcements : donde se anuncian las novedades
+	- bug reports : donde se reportan los bugs
+	- beta testing : donde subo builds para testear. No creo que nadie quiera testear pero bueno, no estaría mal testear antes de sacar las versiones oficiales
+	- showcase : playthroughs, gifs y cosas que mostrar del juego
+	- help : ayuda con los puzles del juego
+	- feature request : donde se pide qué quieres en el juego
+Le pregunté a chatGPT y con el volumen de usuarios que tiene BSMDE ahora mismo no recomienda arrancar un discord, sino seguir creciendo con los devlogs y la newsletter. Aun así, dejaré la tarea de crear un discrod en el trello para más adelante.
+
+Mientras tanto, creo que el contenido de la siguiente build debe centrarse en las quests. Ya he recibido varios feedbacks sobre lo inútiles que resultan y creo que si añado un item como recompensa el problema se solventa. Las misiones de la main quest son las únicas que podrían no tener recompensa. O la recompensa podría ser un email de agradecimiento, un regalo en el buzón o un objeto dejado caer. Me gusta, aunque esto supone añadir un montón de objetos que se pueden usar para las misiones de los PNJs secundarios. Voy a empezar por los skill books que estaban demasiado fáciles de encontrar. Ahora todos los skill books son la recompensa de su correspondiente misión de PNJ. Del mismo modo podría haber una misión de cada clan, o línea de sangre, que te permite conocer más a fondo tu skill innata, tu debilidad y tu origen. Cada jugador solo puede acceder a su clan quest, así que las diseñaré al final.
+
+Empecemos por la misión de recolectar las 5 revistas para Jay, que te dará el libro de hackeo. 
+1. La revista de surferos me parece bien dejarla sin puzle ya que es la primera y más fácil. Simplemente la coges de un cajón de los bailbonds.
+2. La revista de videojuegos te la da Trip cuando completas su quest de la marihuana, que claramente necesita algún paso más que simplemente coger el tarro. Si consigo papel de fumar, ya puedo combinarlos. ¿Quién podría tener papel de fumar? El detective o el poli retirado, que son tipos duros y viejunos que se han dejado el tabaco. Alpha también podría fumar como buen macarra. También podría ser un objeto que encuentras en el pawnshop, en una basura, o en la casa de la playa pero más escondido. Quizá en el sofá de Jay que es un fumeta o en la caja fuerte junto al diamante. En el apartamento 102 hay un cenicero, por lo que podría haber papel de fumar. Creo que es el sitio que más me convence porque está lejos y ha habido un incendio en la habitación. Tengo dudas de si es necesario un tercer objeto: juntar papel de fumar y tarro de marihuana para obtener un cigarrillo de marihuana es suficiente? Podría meter pegamento en el papel o una boquilla, pero creo que son cosas demasiado específicas, con el papel y la hierba suficiente. Otra opción sería utilizar un paquete de cigarrillos o un cigarro, que podrían estar en el apartamento 102, ya que el papel de fumar no es visualmente tan reconocible.
+3. La revista de heavy metal te la puede dar la metalera del Madhouse pero a su vez hará falta una misión metalera. Es una grupi que quiere completar su colección de recuerdos metaleros con una púa, una baqueta y la pulsera de pinchos del cantante de su grupo favorito: Iron Fangs. Por supuesto los objetos los puedes conseguir o falsear. La púa puedes cogerla del guitarrista callejero en second street, combinándola con unas pegatinas del grupo que se pueden coger del poster en el parking, el Madhouse o en la basura de la playa. La baqueta la puedes coger de una caja en el propio Madhouse club. Queda muy cerca, quizá en la basura del bailbonds sea mejor. La pulsera de pinchos te la puede dar la chica gótica o la encuentras en los almohadones de la cama del Madhouse office y combinándola con la pegatina se convierte en producto oficial. A cambio te dará la revista metalera.
+4. La revista sadomaso ahora está en la mesita de Juliette en la oficina del Madhouse pero me interesa que se obtenga con un puzle o quest. ¿Quién podría tener una revista sadomaso? El barman o el segurata podrían tener el perfil de pervertido que lee revistas porno alemanas. El lugar más propicio sería el Madhouse. Quizá puedo ocultar la revista mejor haciendo que Juliette no te deje acercarte a ella y solo puedas cogerla cuando está Tess. No me parece suficientemente difícil, pero es verdad que si no aprovechas para registrar cuando está Tess podrías quedarse sin la revista para siempre y fallar la quest. Quizá otra forma de "ocultar" la revista sería meter un puzle desde el portátil de Juliette, quizá revisas su correo y tiene una suscripción a la revista que puedes modificar para que llegue a tu buzón. En general las contraseñas de los ordenadores están muy fáciles, en este caso creo que se podría acceder al correo de Juliette con la contraseña que se muestra si apagas la luz y lees el espejo de corazón. Es una idea loca pero otra opción podría ser utilizar una bombilla de luz oscura como en Sam & Max con la lámpara y en la pared se lee la contraseña. De hecho ambos puzles podrían coexistir uno para el PC de Tess y el otro para el portátil de Juliette. La contraseña de Tess podría estar en el ascensor, que lo hace más difícil aún. Para que tenga algo de sentido, podría incluir un mensaje de Juliette: aléjate de mis archivos. Así guiamos al jugador al PC de Tess. Creo que me va a tocar revisar todos los puzles de las contraseñas para hacerlos más difíciles.
+
+5-12-2024
+
+He descubierto un servicio gratuito de testeo para juegos indies: Playcocola. Creo que ahora que tengo la integración continua tiene sentido que el pipeline de subir builds nuevas incluya enviarlas a testear antes de subirlas a los stores. También puedo enviar links a personas específicas para que testeen. Voy a probar el testeo con la siguiente versión 1.5, que ya incluye bastantes cambios en el quest journal, los skill books y en los puzzles de Chloe, pero todavía puedo meter más quests y refinar los playthroughs que más se juegan, que según GameAnalytics son Stuart, Matt y Chloe.
+
+Voy a echar unas partidas con Stuart, Matt y Chloe y tomar notas de qué acciones echo en falta para hacer más Nosferatu, Malkavian y Toreador cada playthrough. Como hay muchas quests que meter (clan quest, quests de PNJs y skill quests) puedo meter también ideas random:
+Disclaimer
+- Disclaimer Malkavian donde se dice lo mismo sin decir nada.
+Apartaments 101
+- Jack comenta tu aspecto Nosferatu. Guau, tu cara tiene personalidad.
+- Matt puede hablar con la tele y la radio
+- No todos los PNJs tienen diálogos lunáticos de Matt
+- No está la nota del regente Tremere en el escritorio
+- El portátil no tiene mails que leer. Podría tener una entrada para ver el progreso del juego. Es un poco meta pero me gusta.
+- Bajo la alfombra podría haber algo escondido. Quizá en una esquinita como en Maniac Mansion
+- El wc podría rebuscarse para encontrar algo sucio (Chloe no podría acercarse al wc). El desatascador + wc es un buen puzle inicial para sacar quizá el cinturón sucio de karate?
+- La ducha y la pila también son candidatos a rebuscar
+- Chloe no se acerca a la cama sucia y no puede coger el mando remoto roto. Eso impide cumplir la quest de Killpatrick pero como no es parte de la main quest no hay problema. Alternativamente se podría seducir a Jay para quitarle el mando.
+- Tablón suelto que oculta un alijo de algo. Usar palanca con tablón suelto para abrirlo
+Apartments Hallway
+- En la planta podría haber algo oculto
+- Tablón suelto en pasillo. Posible ratonera de donde coger queso
+- Conducto de ventilación. Se esconde algo en el conducto?
+Main street
+- Arbusto que esconde cosas
+- Contenedor que puede rebuscarse (salvo que seas Chloe)
+- La alcantarilla podría abrirse? Entrar es demasiado trabajo pero quizá se puede reutilizar la alcantarilla de los bocetos originales.
+- Falta un cubo de basura en el pawnshop. Rebuscar ahi puede sacar cualquier mierda del pawnshop
+- Las ventanas del hospital podrían ser interactuables. ¿Se ve a alguien?
+- El callejón entre el pawnshop y el hospital podría ser transitable. En teoría lleva al banco de sangre.
+- El callejón de Claire también podría ser transitable. Si no completas su quest no te deja pasar. Había un callejón hecho en el mapa original de bloodlust. Lo mismo se puede reutilizar.
+- No hay frases Nosferatu con Claire. Quizá no te ofrece cariñitos o te cobra doble por tu aspecto.
+Hospital
+- Planta decorativa interactuable. Esconde algún medicamento?
+- La máquina de agua más cerca de la barra para poder usarla y coger vasos de agua que luego se puede tirar el agua en la planta y tienes un vaso para rellenar de helado el Diner y conseguir colores
+Parking
+- Los coches no son interactuables. Podría haber objetos útiles en cada coche, aunque requieran un pequeño puzle. Quizá hay algo bajo la rueda, o un flyer en la ventanilla. 
+- La panda de macarras de Alpha no son interactuables y sería divertido hablar con ellos.
+- Podría haber una montañita de basura en la esquina cerca del segurata
+Second Street
+- La basura del Doomsayer no es interactuable.
+- El bidón se puede rebuscar (salvo que seas Chloe) y sacas basura de su interior
+- El Doomsayer no se mueve
+- La alcantarilla se puede usar para entrar si eres Nosferatu
+- Los clubbers haciendo botellón fuera del Madhouse no se pueden hablar y es una lástima. El grupo sadomaso serían candidatos para darte el collar de pinchos de la quest metalera.
+Diner
+- Puedes meter monedas en la jukebox para elegir la música.
+- En la barra podría haber más objetos que el tip jar
+- Mirar el mostrador y hablar con Doris para conseguir un perrito caliente
+- La máquina de refrescos se podría usar para rellenar vasos de refrescos de colores. Podría ser una máquina de helados y cuando se derriten te permiten pintar cosas de colores (salvo de amarillo que ya hay pintura amarilla)
+Madhouse Club
+- La guinness y la caja registradora del mostrador se podrían usar 
+- Los posters podrían tener publicidad del grupo heavy Iron Fangs
+- Una caja al lado del escenario podría tener baquetas viejas
+Elevator
+- Posible puzle: cambiar bombilla, ver mensaje secreto de Tess
+Madhouse Office
+- La puerta del baño no se puede ni inspeccionar
+- No se debería de poder inspeccionar las cosas de Juliette cuando está en la habitación
+- La cama y los almohadones de Juliette deberían ser interactuables. Debajo se pueden encontrar ropa interior (bragas, tangas, etc) y juguetes sexuales (dildos, collar de pinchos?)
+Bailbonds
+- La montaña de cajas y basura de Killpatrick podría tener objetos.
+- El archivador podría tener algún expediente criminal interesante, fotos de algún personaje que estuviera investigando Killpatrick, etc
+Suites Hallway
+- La planta no es interactuable, podría contener objetos ocultos, una llave debajo de la maceta, etc.
+- Después de darle la lejía a Roberta, la mancha no desaparece
+Mercurius Suite
+- Mercurius se asusta al ver tu aspecto Nosferatu
+- Los jarrones no son interactuables. ¿Qué hay dentro?
+- En la mesita podría haber revistas y objetos encima
+Beach
+- No suena la música del radio casette
+- En la orilla podría haber algún objeto varado
+- Pescar? Usar caña de pescar con agua para pescar un arenque, que luego se puede teñir de rojo
+- El bidón se puede rebuscar (salvo que seas Chloe) y sacas basura de su interior
+Beach house exterior
+- Arbustos interactuables para que no sea el único arbusto el del power switch
+- Bañadores y toalla interactuables
+Beach house interior
+- Los botellines de cerveza en la barra interactuables
+- Rebuscar en la comida podrida (salvo que seas Chloe)
+- La alfombra oculta un objeto
+Silo
+- La miniatura del Fallout no se puede coger. Podría ser parte de la quest friki de Jay que te pide videojuegos
+- El sofá de Thung podría esconder una apestosa sorpresa (Chloe no puede acercarse)
+
+De nuevo vuelvo a plantearme añadir el arte topdown a modo de contenido extra game plus. Es literalmente hacer otro juego después del juego. ¿Habría alguna forma de reutilizar parte de la lógica, diálogos, retratos? Quizá no es imposible adaptar el arte viejo al arte nuevo para cubrir los mismos objetos y escenarios. Es una lástima desaprovechar todo ese arte, pero el siguiente proyecto no quiero que sea más Bloodlust sino una aventura RPG de verdad.
+
+6-12-2024
+
+Aunque sigo con las quests, creo que esta versión 1.5 debería ser la que incluya los playthroughs diferenciados para todos los personajes. Nosferatu y Toreador ya tienen sus puzles de diálogo, falta el resto en la misma estructura de puzles de diálogo:
+- Ash: cuando eliges una opción agresiva empieza un puzle de diálogo en el que hay 4 frases y el jugador tiene que elegir la más calmada 3 veces para evitar el conflicto y seguir el diálogo normalmente. Si fallas, las frases escalan en agresividad (pasan de "i dare you" a "kill kill kill"). Las frases correctas intentan mantener la cabeza fría y evitar el conflicto. Al tercer fallo Ash tiene que abandonar la habitación para evitar un pelea.
+- Cat: cuando hablas con animales hay un puzle de diálogo con 4 frases y el jugador elige la correcta 3 veces para convencer al animal. Las frases correctas hablan al animal construyendo confianza, de igual a igual. Las frases incorrectas apelan al animal como un ente extraño, ajeno y provocan que el animal desconfíe y desobedezca.
+- Gianna: ritual mágico con puzzle de diálogo en 3 pasos para conseguir un ritual de sangre que comunica con espíritus, muertos, auras, etc.
+- Matt: diálogo lunático en que 3 frases son tonterías con 1 respuesta visionaria.
+Está claro que la estructura del puzle de diálogo con 4 frases, 1 correcta y 3 erróneas, es suficientemente sencilla como para que se pueda usar individualmente como con los Nosferatu o en secuencias de 3 como con Toreador. La estructura de 3 pasos de Chloe se puede aplicar a casi todos, aunque ahora el reto es asignar los puzles a las distintas situaciones. Con Ash está claro que las frases más agresivas pueden ser un buen trigger para su ira. Cat puede usar su animalismo para convencer al perro, hablar con el gato y el cuervo, pero harían falta más animales con los que hablar y un objetivo claro de la conversación. Aunque me gusta simplemente hablar con los animales como en DOS2, prefiero que haya una orden clara que quieras de cada animal. Lo mismo ocurre con Gianna y Matt. ¿Cuándo usan su poder de la sangre? Gianna puede hablar con fantasmas y demonios, ver auras, etc pero hay que elegir cuándo esto es relevante para alguna quest. Y tiene que hacerse lo suficiente para que jugar con ella resulte atractivo. Matt tiene la ventaja de que las quests y diálogo ya son lunáticos, lo que le aporta un toque único al playthrough.
+
+Las recompensas de la main quest: 
+- Delacroix: Mercurius te dice que Delacroix te ha dejado un regalito en el buzón. Un vial de sangre como en Bloodlines podría ser un buen regalo ya que podría cambiarse por el vial de Vampire's kiss en el Madhouse club.
+- Mercurius: en Bloodlines te da como regalo un revolver ya que de poco le ha servido. ¿Para qué podría servir el revolver en un puzle?
+- Dog: el perro cuando sale corriendo deja tras de sí un collar o la correa, que se podrían usar en puzles. 
+- Barman: cuando completas la quest te da acceso a la oficina, no hace falta item.
+- Tess:
+- Juliette:
+- Thung:
+
+8-12-2024
+
+Creo que para arreglar los puzles del juego no es suficiente visualizar los items y las habitaciones implicadas, necesito un grafo de dependencias para ver cuántos objetos tiene cada habitación y cada puzle que sean de 0 interacciones (es decir que se cojan sin más del entorno), cuántos de 1 interacción (es decir que se consigan con 1 click adicional), etc. Así podré balancear las habitaciones para que no tengan demasiados objetos de 0 interacciones. Idealmente las misiones deben tener objetos de 0, 1-2 y 3+ interacciones según su dificultad, por lo que podríamos puntuar la dificultad de las misiones según sus interacciones. Creo que todo esto se puede visualizar utilizando tablas, veamos si soy capaz de expresar lo que ya hay en el juego para poder balancear y terminar lo que falta:
+
+| Room               | Item                     | Interactions |
+| ------------------ | ------------------------ | ------------ |
+| Apartment 101      | Money Clip               | 1            |
+|                    | Screwdriver              | 1            |
+|                    | Empty painkillers        | 1            |
+|                    | Watch                    | 1            |
+|                    | Blood bag                | 2            |
+|                    | Bleach                   | 2            |
+|                    | Broken remote            | 2            |
+| Apartments Hallway |                          |              |
+| Apartment 102      | (Enter)                  | 5?           |
+|                    | Stake                    | 1            |
+|                    | Empty gas can            | 2            |
+|                    | Old bible                | 1            |
+|                    | Tiny key                 | 2            |
+|                    | Marians diary            | 3            |
+|                    | (Birthday cake)          | 2            |
+|                    | (Laxatives)              | 1            |
+| Main Street        | 9/16 wrench              | 5+1          |
+| Pawnshop           | Big scissors             | 2            |
+| Hospital           | Painkillers              | 2            |
+| Hospital office    | (Enter)                  | 3            |
+| Parking            | Bucket of yellow paint   | 1            |
+|                    | Plastic funnel with tube | 3            |
+|                    | Lily's diary             | 3            |
+| Bailbonds          | Vodka                    | 2            |
+|                    | Steak                    | 2            |
+|                    | Box of donuts            | 1            |
+|                    | Plumber bros flyer       | 1            |
+|                    | Coffee thermos           | 2            |
+Sin terminar de definir todo ya se ve que hay habitaciones con muchos items y habitaciones sin nada o con muy pocos. En general abundan los items de 0 interacciones y eso hace que la aventura sea demasiado fácil. Con chat GPT he llegado a la conclusión de que las habitaciones deberían tener 5 items, y en general hay que esconderlos más para evitar items de 1 solo click (está bien que haya alguno por habitación, pero no tantos como hay ahora). Pongamos que de los 5 items de cada habitación, 2 son fáciles (1-2 clicks) y los otros 3 son medios o difíciles (quieren puzle o 3 clicks o más).
+Así, por un lado tengo que complicar la obtención de los items actuales (moviéndolos a otras habitaciones, escondiéndolos de forma que haya que abrir cajones, mover obstáculos, poniendo puzles de entorno como apagar luces, distraer PNJs, etc) y por otro tengo que meter más items en las habitaciones vacías. Me ha gustado la sugerencia de utilizar como items pruebas, fragmentos de mapa o de código de seguridad para que hay que combinar items para obtener información. Creo que enlaza todo con el problema de las contraseñas. Conseguir una contraseña de una caja fuerte o de un ordenador no puede ser leer un poster y un post-it. Hay que "esconder" la solución en forma de items sin limitarse a la misma habitación. Por ejemplo, la contraseña del ordenador de Killpatrick puede estar dividida en una nota que se ha roto en 2 pedazos. Está bien que haya un pedazo que se pueda encontrar en los bailbonds, rebuscando en los archivos, con la fecha del calendario, las notas del escritorio o incluso mirando en su basura. Que todo ello sea necesario en el puzle, no opcional. La otra mitad podría estar en otra habitación. Por ejemplo, en el parking no de los coches podría ser el de Killpatrick y dentro podría estar esa mitad de la contraseña. De esta forma obligamos al jugador a estrujarse el cerebro para conseguir las dos mitades de la contraseña y si juegas con Stuart y puedes hackear directamente el ordenador estos dos puzles los ignoras totalmente. El juego no te deja coger las 2 mitades de la contraseña y eres Stuart, así no generamos basura en tu inventario. Cuando introduces la contraseña en el PC correspondiente, el item se destruye.
+
+Siguiendo la regla del 5 por habitación, 2 fáciles y 3 medio-difíciles tengo que reducir los 7 objetos de Apartment 101: 2 items tienen que cambiar de habitación, el money clip y la bolsa de sangre son los más fijos ya que en Bloodlines existen. El destornillador y la lejía son los objetos que menos pegan en el apartamento, pero el bote vacío de analgésicos podría estar en el apartamento 102 muy fácilmente. Otras oportunidades:
+Apartment 101
+- Bajo la alfombra, en una esquinita, hay una llave escondida que abre el cajón del escritorio.
+Apartment 102
+- Apagas la luz del baño y se puede leer en la pared o en el espejo un código de cuatro números que abre ???
+Apartments Hallway
+- En la planta podría hay un ??? oculto
+- Hay una ratonera en el pasillo. La rata tiene un objeto oculto que puedes coger si le das queso
+- Escalón suelto que esconde un alijo de pegatinas de Iron Fangs. Usar palanca con tablón suelto para abrirlo
+Main street
+- Arbusto que esconde cosas
+- Contenedor que puede rebuscarse (salvo que seas Chloe)
+- La alcantarilla podría abrirse? Entrar es demasiado trabajo pero quizá se puede reutilizar la alcantarilla de los bocetos originales.
+- Falta un cubo de basura en el pawnshop. Rebuscar ahi puede sacar cualquier mierda del pawnshop
