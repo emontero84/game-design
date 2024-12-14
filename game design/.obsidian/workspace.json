@@ -38,9 +38,9 @@
               "state": {
                 "file": "Projects/Bloodlust Santa Monica/GDD Bloodlust.canvas",
                 "viewState": {
-                  "x": 1753.7676283056317,
-                  "y": 6204.390877495256,
-                  "zoom": -3.6666666666666674
+                  "x": 2339.7690583205044,
+                  "y": 368.7676879155158,
+                  "zoom": -0.6666666666666667
                 }
               },
               "pinned": true,
@@ -79,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mindmap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,10 +191,14 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "c9479befe26d6665",
+  "active": "27842cd2d17d2793",
   "lastOpenFiles": [
-    "Projects/Bloodlust Santa Monica/GDD Bloodlust.canvas",
     "Projects/Bloodlust Santa Monica/Devlog.md",
+    "Projects/Bloodlust Santa Monica/GDD Bloodlust.canvas",
+    "Puzzles.md",
+    "Projects/Bloodlust Santa Monica/Puzzles.canvas",
+    "Projects/Bloodlust Santa Monica/Puzzle Mindmap.md",
+    "Assets/Talk_0 39.png",
     "Assets/Talk_0 38.png",
     "Assets/Pasted image 20241201094212.png",
     "Assets/Pasted image 20241201094156.png",
@@ -204,7 +208,6 @@
     "Assets/Pasted image 20241201094048.png",
     "Assets/Pasted image 20241201094035.png",
     "Assets/Pasted image 20241201094024.png",
-    "Assets/Pasted image 20241201094010.png",
     "Projects/Adventure RPG/1. Notas de Diseño.md",
     "📝Diario de Game Design.md",
     "Projects/Bloodlust Santa Monica",
