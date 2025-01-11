@@ -107,8 +107,7 @@
 		{"id":"2a60ea781771816e","type":"file","file":"Assets/BloodBag_0.png","x":2590,"y":3542,"width":50,"height":50},
 		{"id":"783a3b99af8bd775","type":"file","file":"Assets/MoneyBag_0.png","x":540,"y":3825,"width":50,"height":50},
 		{"id":"ccc9c24e16a57302","type":"file","file":"Assets/TvRemote_0.png","x":540,"y":3902,"width":50,"height":50},
-		{"id":"7a3b19263f85cd5b","type":"text","text":"### Bloody Stains\nApartment 101 --> Bleach\nGo to Suites hallway\nGive Roberta the bleach --> philosophy book\n","x":1960,"y":-920,"width":341,"height":240,"color":"6"},
-		{"id":"5d701f51ad4ad975","type":"file","file":"Assets/Talk_0 39.png","x":1975,"y":-1076,"width":156,"height":156},
+		{"id":"7a3b19263f85cd5b","type":"text","text":"### Bloody Stains\n??? --> mop\nGo to suites hallway\nGive Roberta mop\nApartment 101 --> Bleach\nGo to Suites hallway\nGive Roberta the bleach \n??? --> wax\n??? --> brush\nCombine wax with brush --> waxed brush\nGive waxed brush to Roberta\n??? -> bucket\nGo to main street\nUse bucket with water --> bucket of water\nGo to suites hallway\nGive bucket with water to Roberta -->\nphilosophy book\n","x":1960,"y":-1262,"width":341,"height":582,"color":"6"},
 		{"id":"6c5bc2a7aa2ebeb5","type":"file","file":"Assets/Bleach_0.png","x":2320,"y":-874,"width":50,"height":50},
 		{"id":"63815dee7a71fc55","type":"file","file":"Assets/Book1_0.png","x":2320,"y":-736,"width":50,"height":50,"color":"4"},
 		{"id":"0990d5d01f993d81","type":"file","file":"Assets/Book1_0.png","x":2320,"y":-247,"width":50,"height":50,"color":"1"},
@@ -219,7 +218,7 @@
 		{"id":"a97838f1f526a42f","type":"file","file":"Assets/Talk_0 28.png","x":1339,"y":894,"width":159,"height":159},
 		{"id":"f447fc4f1bd2aa2c","type":"text","text":"### The Voermann Dilemma\nTalk to Juliette and Tess","x":1339,"y":1053,"width":341,"height":150,"color":"2"},
 		{"id":"7c2d6bc32a1c6739","type":"text","text":"### Missing Data\nGo to second street\nOpen door to silo\nTalk to Bernard Thung \nComplete Killpatrick quest --> CD-ROM\nGive CD-ROM to Bernard Thung","x":1343,"y":1402,"width":370,"height":209,"color":"2"},
-		{"id":"4276e2fbca2c189b","type":"text","text":"### Slash In The Dark\nApartment 101 --> broken TV remote\nGo to beach house interior\nSwitch broken TV remote with TV remote\nGo to Hospital\nUse TV remote with TV to make patients leave\nGo to Doctor's office\nTalk to doctor --> laxatives\nComplete Miss Webster quest\n??? --> millionaire top hat\ncombine top hat with incognito glasses --> billionaire disguise\nGo to main street\nGive billionaire disguise to Mr. D\nSkill: Bribe Mr. D\nGo to Noir Gallery\nUse laxatives with catering\nGo to Diner\nTalk to cook --> knife\nGo to Noir Gallery --> charity box\nUse knife with paintings\nGo to Madhouse office\nTalk to Juliette","x":863,"y":915,"width":341,"height":729,"color":"2"},
+		{"id":"4276e2fbca2c189b","type":"text","text":"### Slash In The Dark\nApartment 101 --> broken TV remote\nGo to beach house interior\nSwitch broken TV remote with TV remote\nGo to Hospital\nUse TV remote with TV to make patients leave\nGo to Doctor's office\nTalk to doctor --> laxatives\nComplete Miss Webster quest\n??? --> millionaire top hat\ncombine top hat with incognito glasses --> billionaire disguise\nGo to main street\nGive billionaire disguise to Mr. D\nSkill: Bribe Mr. D\nGo to Noir Gallery\nUse laxatives with catering\nGo to Diner\nComplete cook quest --> knife\nGo to Noir Gallery --> charity box\nUse knife with paintings\nGo to Madhouse office\nTalk to Juliette","x":863,"y":915,"width":341,"height":729,"color":"2"},
 		{"id":"83141687443c238c","type":"file","file":"Assets/Talk_0 28.png","x":875,"y":756,"width":159,"height":159},
 		{"id":"a927b6949bb5b89c","type":"file","file":"Assets/Laxatives_0.png","x":1218,"y":1013,"width":50,"height":50},
 		{"id":"2e732a30d0f9f513","type":"file","file":"Assets/Knife_0.png","x":1218,"y":1196,"width":50,"height":50},
@@ -254,7 +253,8 @@
 		{"id":"145da84b6cca2fdb","type":"text","text":"## The World Is Mine\nPara conseguir el skill book del Tess tienes\n\nGive to old cop --> skill book: bribe","x":4015,"y":2157,"width":341,"height":400,"color":"6"},
 		{"id":"4f1c6a72c1064048","type":"file","file":"Assets/Talk_0 36.png","x":4025,"y":1996,"width":161,"height":161},
 		{"id":"6916988bd6af27ec","type":"file","file":"Assets/Talk_0 3.png","x":4531,"y":1996,"width":160,"height":160},
-		{"id":"83b34dd2aaa86185","type":"text","text":"## For the Old Times\nPara conseguir el skill book del poli retirado tienes que ??? \n\nGive to old cop --> skill book: bribe","x":4520,"y":2157,"width":341,"height":400,"color":"6"}
+		{"id":"83b34dd2aaa86185","type":"text","text":"## For the Old Times\nPara conseguir el skill book del poli retirado tienes que ??? \n\nGive to old cop --> skill book: bribe","x":4520,"y":2157,"width":341,"height":400,"color":"6"},
+		{"id":"5d701f51ad4ad975","type":"file","file":"Assets/Talk_0 39.png","x":1975,"y":-1418,"width":156,"height":156}
 	],
 	"edges":[]
 }

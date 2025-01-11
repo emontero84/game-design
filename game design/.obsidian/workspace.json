@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "Devlog"
             }
+          },
+          {
+            "id": "7910e35d876e48e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Adventure RPG/1. Notas de Diseño.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Notas de Diseño"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c91fb86367bd936a",
@@ -38,9 +53,9 @@
               "state": {
                 "file": "Projects/Bloodlust Santa Monica/GDD Bloodlust.canvas",
                 "viewState": {
-                  "x": 2339.7690583205044,
-                  "y": 368.7676879155158,
-                  "zoom": -0.6666666666666667
+                  "x": 3810.112914919143,
+                  "y": 53.89989238940211,
+                  "zoom": -1.1102230246251565e-16
                 }
               },
               "pinned": true,
@@ -191,9 +206,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "27842cd2d17d2793",
+  "active": "7910e35d876e48e1",
   "lastOpenFiles": [
     "Projects/Bloodlust Santa Monica/Devlog.md",
+    "Projects/Adventure RPG/1. Notas de Diseño.md",
+    "📝Diario de Game Design.md",
     "Projects/Bloodlust Santa Monica/GDD Bloodlust.canvas",
     "Puzzles.md",
     "Projects/Bloodlust Santa Monica/Puzzles.canvas",
@@ -208,8 +225,6 @@
     "Assets/Pasted image 20241201094048.png",
     "Assets/Pasted image 20241201094035.png",
     "Assets/Pasted image 20241201094024.png",
-    "Projects/Adventure RPG/1. Notas de Diseño.md",
-    "📝Diario de Game Design.md",
     "Projects/Bloodlust Santa Monica",
     "Projects/Exorcist Simulator/1. Notas de Diseño.md",
     "Projects/Nights of Blood/1. Notas de Diseño.md",

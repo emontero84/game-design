@@ -10704,3 +10704,4 @@ Descubrí Obsidian y creo que puede ser una herramienta interesante para organiz
 
 Me está gustando Obsidian, pero tengo que crear un repo para el vault con todos los documentos de diseño y el diario de game design. Aunque Bloodlust DE ya lo publiqué en itchio y apenas ha tenido repercusión (400 visitas respecto a las 4000 del original) quizá tiene sentido publicarlo en los demás portales de juegos y tratar de conseguir más visitas con publicaciones en Reddit, foros o en mi propia newsletter (que definitivamente no será semanal, no puedo garantizar una regularidad con el poco tiempo que me queda para desarrollar juegos).
 
+
