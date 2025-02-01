@@ -434,3 +434,52 @@ Además de complicar quests creo que sería un buen momento para añadir una mis
 
 Se me está atragantando el rediseño de los puzles. Poco tiempo y muchos puzles que implementar. Voy alternando con los retratos de los personajes que faltan en la Noir Gallery. También sigo exportando vídeos de música vampírica que teóricamente servirá para ambientar futuros juegos de vampiros. Siguiendo la IP de Bloodlust, no tanto en términos de historia sino en el camino a crear una aventura-RPG que pueda rejugarse infinitamente. Los momentos mecánicos que me gustaría recrear son: crear un vampiro con una ficha similar a la del Fallout, elegir perks, méritos y defectos, puntuar las stats y skills. Como vampiro, tienes que sobrevivir cada noche alimentándote para recuperar puntos de sangre.
  Quizá es interesante postear imágenes sobre Bloodlust en el subreddit de adventure games. He visto que hay bastantes posts navideños, por lo que quizá tiene sentido planificar algo de contenido estacional aunque solo sea promocional. Idealmente, meter unas skins estacionales o un personaje con un puzle estacional. Adaptar la ciudad de Santa Mónica a las distintas estaciones podría ser también interesante. En Navidad nieva, en Halloween hay niños por las calles, etc. Para acceder al contenido estacional podría haber un calendario en tu refugio del apartamento 101 y desde ahi puedes consultar la fecha y cambiar el mes en modo debug. Me gusta que si juegas en una época del año tengas ambientación distintas, pero creo que meter personajes o puzles estacionales no es razón suficiente para que nadie re-juegue. Sí podría ser un buen gancho promocional: vampiros navideños, vampiros de san valentín, vampiros de Halloween, etc. En esa misma línea, los skins de personajes famosos como Cyber-Ash o Ciri-Cat podría ser otro reclamo promocional. Al fin y al cabo, meter cross-overs en un juego tan indie es fácil.
+
+15-1-2025
+
+Ya terminé los retratos de Noir Gallery y el fotógrafo. Voy a meter los personajes para poder ponerles diálogos. Creo que la versión 1.5 no va a tener todos los puzles rediseñado, solo parte de la main quest. 
+
+¿A qué precio se vendería BSMDE? Seguramente 5€ sea un buen precio. Pero tengo que ir mejorando poco a poco los puzles y la rejugabilidad. Cada personaje tiene que sentirse distinto por los puzzles procedurales de los distintos clanes. 
+
+## Versión 1.5
+
+Ayer subí la versión 1.5 en beta a itch.io y playcocola. Creo que es buena práctica subir la versión beta a itch para que jueguen una semana y salgan todos los bugs, así en la 1.5.1 podré fixear todo y hacer un release más seguro. El rediseño de los puzzles de la main quest está casi completo, así que creo que puedo terminar las side quests en futuros updates (1.6 en adelante). 
+Mientras tanto he arrancado los logros de Newgrounds. Creo que el juego puede tener los siguientes logros:
+- Completar el juego con cada uno de los 7 vampiros (Fácil 5p)
+- Completar las misiones secundarias de los PNJs (Moderado 10p)
+- Completar el juego al 100% (Challenging 25p)
+- Completar el juego con todos los vampiros al 100% (Difícil 50p)
+Hay que implementar el login de Newgrounds y dibujar los iconos de los logros pero creo que es una feature interesante. Para los jugadores que no estén logueados en Newgrounds estos logros se traducen en desbloqueos de skins para los 7 vampiros ¿y los PNJs? Si completas el juego con Ash desbloqueas Cyber-Ash, la versión cyberpunk de Ash, con su retrato y todas las animaciones. En la pantalla de selección de personaje aparece un botón de percha que te permite seleccionar la skin. Esto te fuerza a rejugar, ya que tienes un personaje nuevo. Si cyber-Ash añadiera la skill de hacking a Ash sería incluso más divertido porque mecánicamente es más divertido rejugar. Sin embargo, esto es muy difícil de mantener. Ciri-Cat, la versión Ciri del Witcher de Cat, podría añadir el poder lunático de Matt. ¿Qué skins utilizo para los demás vampiros? Cuando completas una misión secundaria desbloqueas el logro, pero la skin del PNJ no tiene realmente valor porque ya no tienes interacciones que hacer con el PNJ. Podrías desbloquear el arte del PNJ en la sección extras del menú principal, como en los Resident Evil. Otra opción más loca sería desbloquear al PNJ como jugador sin skills. Jugar con personajes no vampíricos no me gusta y es bastante trabajo añadir las animaciones y retratos. En general, ofrecer rejugabilidad en una aventura gráfica resulta extraño porque normalmente te la pasas una vez y ya. 
+También podría integrar los logros de Newgrounds en el propio juego para todos los jugadores. En el menú principal hace falta una sección extras que incluye los logros y la galería con las ilustraciones desbloqueables. Quizá no es mucho más trabajo y tiene mucho más sentido que todos tengan logros, solo que los jugadores de Newgrounds ganan sus puntos específicos de plataforma.
+Skis desbloqueables:
+	1. Ash: 
+		1. Cyber-Ash, referencia V de Cyberpunk 2077
+		2. Terminator-Ash, referencia Terminator 2
+	2. Cat: 
+		1. Ciri-Cat, referencia Ciri de The Witcher
+		2. Lara-Cat, referencia Lara Croft de Tomb Raider
+	3. Chloe: 
+		1. Harley-Chloe, referencia Harley-Quinn de Batman
+		2. Sailor-Chloe, referencia a Sailor Moon
+	4. Gianna: 
+		1. Skywalker-Gianna, referencia jedis de Star Wars
+	5. Jess: 
+		1. Mad-Jess, referencia Mad Max
+		2. Indy-Jess, referencia Indiana Jones
+	6. Matt: 
+		1. Joker-Matt, referencia el Joker de The Dark Knight
+		2. Neo-Matt, referencia Neo de Matrix
+	7. Stuart: 
+		1. Predator-Stuart, referencia Predator
+		2. Gandalf-Stuart, referencia Gandalf del Señor de los Anillos
+La primera skin puede ser desbloqueable al completar el juego con cada vampiro, la segunda al completar al 100% el juego con cada vampiro.
+
+25-1-2025
+
+He subido una versión 1.5.1 wegGL a Newgrounds porque la beta 1.5 descargable para Windows no la está jugando nadie. Resulta que un hilo de reddit ha traído bastante tráfico, así que voy a aprovechar para centrarme en terminar de desplegar la 1.5.1 en todas las plataformas si no hay bugs críticos (que por ahora parece que no). 
+
+Para la siguiente build voy a centrarme en terminar la main quest. Las side quests de los PNJs las puedo ir añadiendo poco a poco en futuros updates. Los logros y personajes desbloqueables no los espera nadie, así que los puedo usar de pasatiempos. Las otras tareas de segundo plano que quedan son el rediseño de interfaces (title screen, guardar/cargar, settings y menú de pausa). Me gustaría aprovechar para añadir imágenes promocionales al title screen a modo de cinemática en el fondo. Las partículas de sangre son bastante aburridas y quizá con unas ilustraciones de Juliette, Tess y los demás protas podría quedar más interesante. 
+
+## Versión 1.5.2
+
+Hoy subí la versión 1.5.2 que corrige todos los diálogos del juego, que se rompían al continuar una partida anterior. Con este hotfix termino (espero) con los parches de la versión 1.5 que introduce la mitad de la main quest rediseñada. Voy a centrarme en rediseñar el resto de la main quest.
